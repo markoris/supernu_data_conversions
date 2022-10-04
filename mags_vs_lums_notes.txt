@@ -1,0 +1,5 @@
+When LANL folks have been referring to the _lums_ data, they’ve been referring to the *bolometric* luminosity, which is only the first block.
+
+This first block is what needs the factor of 54, similar to the _spec_ files, but the subsequent blocks do not need it, since they are the banded luminosities, and are calculated as isotropic equivalents, hence permitting the conversion to _mags_ as we have in our code.
+
+LANL folks have not been using the subsequent blocks of banded luminosity due to their redundancy with the _mags_ files, but they are perfectly valid to use.
